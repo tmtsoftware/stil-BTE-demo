@@ -6,4 +6,5 @@
 - hello.scala
 - hello_with_param.scala
 - schurr.test.file
-- check_versions.sh
+- check_versions.sh   [CheckVersions Jenkins job]
+
