@@ -1,6 +1,6 @@
 #!/bin/bash +x
 echo "*****************************"
-echo " Java"
+echo " JAVA"
 echo " java -version"
 echo "*****************************"
 java -version
@@ -8,7 +8,7 @@ echo ""
 
 
 echo "*****************************"
-echo " Scala"
+echo " SCALA"
 echo " scala -version"
 echo "*****************************"
 scala -version
@@ -49,9 +49,9 @@ echo ""
 
 echo "*****************************"
 echo " CHECKSTYLE"
-echo " ls -atlar /usr/local/checkstyle/*.jar"
+echo " ls -d /usr/local/checkstyle/*.jar"
 echo "*****************************"
-ls -atlar /usr/local/checkstyle/*.jar
+ls -d /usr/local/checkstyle/*.jar
 echo ""
 
 
