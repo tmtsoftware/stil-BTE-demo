@@ -98,7 +98,7 @@ echo ""
 echo "*****************************"
 echo " SONARQUBE"
 echo " ls -d /usr/local/sonarqube/* | grep -v zip"
-echo " /usr/local/sonarqube-scanner/*-linux/bin/sonar-scanner --version"
+echo " /usr/local/sonarqube-scanner/sonar-scanner-*/bin/sonar-scanner --version"
 echo "*****************************"
 ls -d /usr/local/sonarqube/* | grep -v zip
 /usr/local/sonarqube-scanner/*-linux/bin/sonar-scanner --version
