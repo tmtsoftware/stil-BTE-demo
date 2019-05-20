@@ -73,9 +73,9 @@ echo ""
 
 echo "*****************************"
 echo " SCALASTYLE"
-echo " ls -d /usr/local/scalastyle/*.jar"
+echo " ls -d /usr/local/scalastlye/*.jar"
 echo "*****************************"
-ls -d /usr/local/scalastyle/*.jar
+ls -d /usr/local/scalastlye/*.jar
 echo ""
 
 
