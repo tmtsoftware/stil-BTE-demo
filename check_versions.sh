@@ -8,6 +8,22 @@ echo ""
 
 
 echo "*****************************"
+echo " JSDOC"
+echo " jsdoc --version"
+echo "*****************************"
+jsdoc --version
+echo ""
+
+
+echo "*****************************"
+echo " JSHINT"
+echo " jshint -version"
+echo "*****************************"
+jshint --version
+echo ""
+
+
+echo "*****************************"
 echo " SCALA"
 echo " scala -version"
 echo "*****************************"
@@ -28,6 +44,94 @@ echo " CMAKE"
 echo " cmake -version"
 echo "*****************************"
 cmake -version
+echo ""
+
+
+echo "*****************************"
+echo " MAKE"
+echo " make -version"
+echo "*****************************"
+make -version
+echo ""
+
+
+echo "*****************************"
+echo " GCOV"
+echo " gcov -version"
+echo "*****************************"
+gcov -version
+echo ""
+
+
+echo "*****************************"
+echo " CMOCKA"
+echo " ls -d /usr/local/lib/* | grep cmocka"
+echo "*****************************"
+ls -d /usr/local/lib/* | grep cmocka
+echo ""
+
+
+echo "*****************************"
+echo " HWLOC"
+echo " hwloc-bind --version"
+echo "*****************************"
+hwloc-bind --version
+echo ""
+
+
+echo "*****************************"
+echo " NUMACTL, NUMACTL-DEVEL"
+echo " rpm -q numactl"
+echo " which numactl"
+echo " rpm -q numactl-devel"
+echo "*****************************"
+rpm -q numactl
+which numactl
+rpm -q numactl-devel
+echo ""
+
+
+echo "*****************************"
+echo " TUNA"
+echo " tuna --version"
+echo "*****************************"
+tuna --version
+echo ""
+
+
+echo "*****************************"
+echo " TUNED"
+echo " tuned --version"
+echo "*****************************"
+tuned --version
+echo ""
+
+
+echo "*****************************"
+echo " ZLIB, ZLIB-DEVEL"
+echo "rpm -q zlib"
+echo "rpm -q zlib-devel"
+echo "ls -d /usr/lib64/* | grep libz"
+echo "*****************************"
+rpm -q zlib
+rpm -q zlib-devel
+ls -d /usr/lib64/* | grep libz
+echo ""
+
+
+echo "*****************************"
+echo " CFITSIO"
+echo " ls -d /usr/lib64/* | grep cfitsio"
+echo "*****************************"
+ls -d /usr/lib64/* | grep cfitsio
+echo ""
+
+
+echo "*****************************"
+echo " LIBWEBSOCKETS"
+echo " ls -d /usr/lib64/* | grep websockets"
+echo "*****************************"
+ls -d /usr/lib64/* | grep websockets
 echo ""
 
 
@@ -110,6 +214,22 @@ echo " SBT"
 echo " sbt sbt-version"
 echo "*****************************"
 sbt sbt-version
+echo ""
+
+
+echo "*****************************"
+echo " DOXYGEN"
+echo " doxygen -version"
+echo "*****************************"
+doxygen -version
+echo ""
+
+
+echo "*****************************"
+echo " GRAPHVIZ"
+echo " dot -V"
+echo "*****************************"
+dot -V
 echo ""
 
 
