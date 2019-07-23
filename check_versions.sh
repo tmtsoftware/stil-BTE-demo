@@ -38,6 +38,13 @@ python3 --version
 echo ""
 
 echo "*****************************"
+echo " Python astropy"
+echo " pip --disable-pip-version-check list | grep astropy"
+echo "*****************************"
+pip --disable-pip-version-check list | grep astropy
+echo ""
+
+echo "*****************************"
 echo " GCC"
 echo " gcc --version"
 echo "*****************************"
