@@ -10,6 +10,15 @@ echo "============================================================"
 echo ""
 
 echo "*****************************"
+echo " NTP"
+echo " Should see TAI offset 37"
+echo " ntptime | grep "TAI""
+echo "*****************************"
+ntptime | grep "TAI"
+echo ""
+
+
+echo "*****************************"
 echo " JAVA"
 echo " java -version"
 echo "*****************************"
@@ -98,6 +107,18 @@ echo " Testing"
 echo "============================================================"
 echo ""
 
+echo "*****************************"
+echo " scalatest"
+echo "*****************************"
+echo ""
+
+
+echo "*****************************"
+echo " CPPUNIT"
+echo " ls -d /usr/lib64/* | grep cppunit"
+echo "*****************************"
+ls -d /usr/lib64/* | grep cppunit
+echo ""
 
 echo "*****************************"
 echo " CMOCKA"
@@ -120,17 +141,49 @@ echo " Logging Libraries"
 echo "============================================================"
 echo ""
 
+echo "*****************************"
+echo " spdlog"
+echo "*****************************"
+echo ""
+
+echo "*****************************"
+echo " zlog"
+echo "*****************************"
+echo ""
+
+echo "*****************************"
+echo " Python structlog"
+echo " pip --disable-pip-version-check list | grep structlog"
+echo "*****************************"
+pip --disable-pip-version-check list | grep structlog
+echo ""
+
+
+
 
 
 echo "============================================================"
 echo " Code Coverage Tools"
 echo "============================================================"
 echo ""
+
+echo "*****************************"
+echo " JaCoCO"
+echo "*****************************"
+echo ""
+
 echo "*****************************"
 echo " GCOV"
 echo " gcov -version"
 echo "*****************************"
 gcov -version
+echo ""
+
+echo "*****************************"
+echo " Python coverage"
+echo " pip --disable-pip-version-check list | grep coverage"
+echo "*****************************"
+pip --disable-pip-version-check list | grep coverage
 echo ""
 
 
@@ -151,6 +204,20 @@ echo " CHECKSTYLE"
 echo " ls -d /usr/local/checkstyle/*.jar"
 echo "*****************************"
 ls -d /usr/local/checkstyle/*.jar
+echo ""
+
+echo "*****************************"
+echo " ASTYLE"
+echo " astyle --version"
+echo "*****************************"
+astyle --version
+echo ""
+
+echo "*****************************"
+echo " Python coverage"
+echo " pip --disable-pip-version-check list | grep pep8"
+echo "*****************************"
+pip --disable-pip-version-check list | grep pep8
 echo ""
 
 echo "*****************************"
