@@ -141,15 +141,22 @@ echo " Logging Libraries"
 echo "============================================================"
 echo ""
 
+
 echo "*****************************"
 echo " spdlog"
+echo " ls -al /usr/include/spdlog"
 echo "*****************************"
+ls -al /usr/include/spdlog
 echo ""
+
 
 echo "*****************************"
 echo " zlog"
+echo " ls -d /usr/local/lib/* | grep zlog"
 echo "*****************************"
+ls -d /usr/local/lib/* | grep zlog
 echo ""
+
 
 echo "*****************************"
 echo " Python structlog"
