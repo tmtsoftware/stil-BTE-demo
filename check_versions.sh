@@ -109,8 +109,8 @@ echo ""
 
 echo "*****************************"
 echo " scalatest"
+echo " tests in runtime application"
 echo "*****************************"
-echo ""
 
 
 echo "*****************************"
