@@ -204,9 +204,9 @@ echo ""
 
 echo "*****************************"
 echo " CHECKSTYLE"
-echo " ls -d /usr/local/checkstyle/*.jar"
+echo " ls -d /usr/share/java/checkstyle.jar"
 echo "*****************************"
-ls -d /usr/local/checkstyle/*.jar
+ls -d /usr/share/java/checkstyle.jar
 echo ""
 
 echo "*****************************"
@@ -218,9 +218,9 @@ echo ""
 
 echo "*****************************"
 echo " Python coverage"
-echo " pip3 --disable-pip-version-check list | grep pep8"
+echo " pip3 --disable-pip-version-check list | grep coverage"
 echo "*****************************"
-pip3 --disable-pip-version-check list | grep pep8
+pip3 --disable-pip-version-check list | grep coverage
 echo ""
 
 echo "*****************************"
