@@ -64,7 +64,7 @@ echo "*****************************"
 echo " JENKINS"
 echo " java -jar /usr/share/jenkins/jenkins.war --version"
 echo "*****************************"
-java -jar /usr/lib/jenkins/jenkins.war --version                                                                                                      
+java -jar /usr/share/jenkins/jenkins.war --version                                                                                                      
 echo "" 
 
 
@@ -122,9 +122,9 @@ echo ""
 
 echo "*****************************"
 echo " CMOCKA"
-echo " ls -d /usr/local/lib/* | grep cmocka"
+echo " ls -d /usr/lib/x86_64-linux-gnu| grep cmocka"
 echo "*****************************"
-ls -d /usr/local/lib/* | grep cmocka
+ls -d ls -d /usr/lib/x86_64-linux-gnu | grep cmocka
 echo ""
 
 echo "*****************************"
@@ -278,11 +278,11 @@ echo "*****************************"
 echo " NUMACTL, NUMACTL-DEVEL"
 echo " dpkg-query --show numactl"
 echo " which numactl"
-echo " dpkg-query --show numactl-devel"
+echo " dpkg-query --show libnuma-dev"
 echo "*****************************"
 dpkg-query --show numactl
 which numactl
-dpkg-query --show numactl-devel
+dpkg-query --show libnuma-dev
 echo ""
 
 
