@@ -48,9 +48,9 @@ echo ""
 
 echo "*****************************"
 echo " Python astropy"
-echo " pip --disable-pip-version-check list | grep astropy"
+echo " pip list --format=legacy  | grep astropy"
 echo "*****************************"
-pip --disable-pip-version-check list | grep astropy
+pip list --format=legacy | grep astropy
 echo ""
 
 echo "*****************************"
@@ -81,9 +81,9 @@ echo ""
 
 echo "*****************************"
 echo " Python setuptools"
-echo " pip --disable-pip-version-check list | grep setuptools"
+echo " pip  list --format=legacy | grep setuptools"
 echo "*****************************"
-pip --disable-pip-version-check list | grep setuptools
+pip  list --format=legacy | grep setuptools
 echo ""
 
 echo "*****************************"
@@ -122,16 +122,16 @@ echo ""
 
 echo "*****************************"
 echo " CMOCKA"
-echo " ls -d /usr/local/lib/* | grep cmocka"
+echo " ls -d /usr/lib64/* | grep cmocka"
 echo "*****************************"
-ls -d /usr/local/lib/* | grep cmocka
+ls -d /usr/lib64/* | grep cmocka
 echo ""
 
 echo "*****************************"
 echo " Python pytest"
-echo " pip --disable-pip-version-check list | grep pytest"
+echo " pip list --format=legacy | grep pytest"
 echo "*****************************"
-pip --disable-pip-version-check list | grep pytest
+pip list --format=legacy  | grep pytest
 echo ""
 
 
@@ -160,9 +160,9 @@ echo ""
 
 echo "*****************************"
 echo " Python structlog"
-echo " pip --disable-pip-version-check list | grep structlog"
+echo " pip list --format=legacy | grep structlog"
 echo "*****************************"
-pip --disable-pip-version-check list | grep structlog
+pip list --format=legacy | grep structlog
 echo ""
 
 
@@ -184,9 +184,9 @@ echo ""
 
 echo "*****************************"
 echo " Python coverage"
-echo " pip --disable-pip-version-check list | grep coverage"
+echo " pip  list --format=legacy  | grep coverage"
 echo "*****************************"
-pip --disable-pip-version-check list | grep coverage
+pip list --format=legacy | grep coverage
 echo ""
 
 
@@ -218,9 +218,9 @@ echo ""
 
 echo "*****************************"
 echo " Python coverage"
-echo " pip --disable-pip-version-check list | grep pep8"
+echo " pip list --format=legacy | grep pep8"
 echo "*****************************"
-pip --disable-pip-version-check list | grep pep8
+pip list --format=legacy | grep pep8
 echo ""
 
 echo "*****************************"
