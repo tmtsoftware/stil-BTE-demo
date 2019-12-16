@@ -96,9 +96,9 @@ echo ""
 
 echo "*****************************"
 echo " MAKE"
-echo " make -version | grep make"
+echo " make -version | grep Make"
 echo "*****************************"
-make -version | grep make
+make -version | grep Make
 echo ""
 
 
