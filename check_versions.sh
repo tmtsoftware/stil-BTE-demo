@@ -55,9 +55,9 @@ echo ""
 
 echo "*****************************"
 echo " GCC"
-echo " gcc --version"
+echo " gcc --version | grep gcc"
 echo "*****************************"
-gcc --version
+gcc --version | grep gcc
 echo ""
 
 echo "*****************************"
@@ -96,9 +96,9 @@ echo ""
 
 echo "*****************************"
 echo " MAKE"
-echo " make -version"
+echo " make -version | grep make"
 echo "*****************************"
-make -version
+make -version | grep make
 echo ""
 
 
@@ -177,9 +177,9 @@ echo ""
 
 echo "*****************************"
 echo " GCOV"
-echo " gcov -version"
+echo " gcov -version | grep gcov"
 echo "*****************************"
-gcov -version
+gcov -version | grep gcov
 echo ""
 
 echo "*****************************"
