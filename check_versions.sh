@@ -152,9 +152,9 @@ echo ""
 
 echo "*****************************"
 echo " zlog"
-echo " ls -d /usr/local/lib/* | grep zlog"
+echo " ls -d /usr/local/zlog/lib/* | grep zlog"
 echo "*****************************"
-ls -d /usr/local/lib/* | grep zlog
+ls -d /usr/local/zlog/lib/* | grep zlog
 echo ""
 
 
