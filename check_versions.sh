@@ -211,9 +211,9 @@ echo ""
 
 echo "*****************************"
 echo " ASTYLE"
-echo " astyle --version"
+echo " /usr/local/bin/astyle --version"
 echo "*****************************"
-astyle --version
+/usr/local/bin/astyle --version
 echo ""
 
 echo "*****************************"
