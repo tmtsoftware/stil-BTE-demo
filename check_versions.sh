@@ -2,6 +2,7 @@
 
 echo "============================================================"
 echo " OS - Centos 7"
+cat /etc/redhat-release
 echo " JAVA_HOME is defined in the Jenkins job prior to running this script."
 echo " Example:"
 echo "   export JAVA_HOME=/usr/lib/jvm/adoptopenjdk-11-hotspot/"
@@ -54,6 +55,13 @@ pip list --format=legacy | grep astropy
 echo ""
 
 echo "*****************************"
+echo " Python pytest"
+echo " pip list --format=legacy | grep pytest"
+echo "*****************************"
+pip list --format=legacy  | grep pytest
+echo ""
+
+echo "*****************************"
 echo " GCC"
 echo " gcc --version | grep gcc"
 echo "*****************************"
@@ -61,11 +69,18 @@ gcc --version | grep gcc
 echo ""
 
 echo "*****************************"
-echo " JENKINS"
-echo " java -jar /usr/lib/jenkins/jenkins.war --version"
+echo " CMAKE"
+echo " cmake -version"
 echo "*****************************"
-java -jar /usr/lib/jenkins/jenkins.war --version                                                                                                      
-echo "" 
+cmake -version
+echo ""
+
+echo "*****************************"
+echo " CPPUNIT"
+echo " rpm -q cppunit"
+echo "*****************************"
+rpm -q cppunit
+echo ""
 
 
 echo "============================================================"
@@ -74,9 +89,9 @@ echo "============================================================"
 echo ""
 echo "*****************************"
 echo " SBT"
-echo " sbt about"
+echo " rpm -q sbt"
 echo "*****************************"
-sbt about
+rpm -q sbt
 echo ""
 
 echo "*****************************"
@@ -87,11 +102,10 @@ pip  list --format=legacy | grep setuptools
 echo ""
 
 echo "*****************************"
-echo " CMAKE"
-echo " cmake -version"
+echo " JENKINS"
+echo " java -jar /usr/lib/jenkins/jenkins.war --version"
 echo "*****************************"
-cmake -version
-echo ""
+java -jar /usr/lib/jenkins/jenkins.war --version                                                                                                      
 
 
 echo "*****************************"
@@ -113,26 +127,14 @@ echo " tests in runtime application"
 echo "*****************************"
 
 
-echo "*****************************"
-echo " CPPUNIT"
-echo " ls -d /usr/lib64/* | grep cppunit"
-echo "*****************************"
-ls -d /usr/lib64/* | grep cppunit
-echo ""
 
 echo "*****************************"
 echo " CMOCKA"
-echo " ls -d /usr/lib64/* | grep cmocka"
+echo " rpm -q libcmocka"
 echo "*****************************"
-ls -d /usr/lib64/* | grep cmocka
+rpm -q libcmocka
 echo ""
 
-echo "*****************************"
-echo " Python pytest"
-echo " pip list --format=legacy | grep pytest"
-echo "*****************************"
-pip list --format=legacy  | grep pytest
-echo ""
 
 
 
@@ -144,9 +146,9 @@ echo ""
 
 echo "*****************************"
 echo " spdlog"
-echo " ls -al /usr/include/spdlog"
+echo "rpm -q spdlog-devel"
 echo "*****************************"
-ls -al /usr/include/spdlog
+rpm -q spdlog-devel
 echo ""
 
 
@@ -217,6 +219,15 @@ echo "*****************************"
 echo ""
 
 echo "*****************************"
+echo " SCALA - SCOVERAGE"
+echo " cat /usr/local/sbt-scoverage/version.sbt"
+echo "*****************************"
+cat /usr/local/sbt-scoverage/version.sbt
+echo ""
+
+
+
+echo "*****************************"
 echo " Python coverage"
 echo " pip list --format=legacy | grep pep8"
 echo "*****************************"
@@ -225,17 +236,17 @@ echo ""
 
 echo "*****************************"
 echo " LLVM"
-echo " /usr/bin/llvm-link --version | grep \"LLVM version\""
+echo " rpm -q llvm"
 echo "*****************************"
-/usr/bin/llvm-link --version | grep "LLVM version"
+rpm -q llvm
 echo ""
 
 
 echo "*****************************"
 echo " CLANG"
-echo " clang --version"
+echo " rpm -q clang"
 echo "*****************************"
-clang --version
+rpm -q clang
 echo ""
 
 echo "*****************************"
@@ -316,17 +327,17 @@ echo ""
 
 echo "*****************************"
 echo " CFITSIO"
-echo " ls -d /usr/lib64/* | grep cfitsio"
+echo " rpm -q cfitsio"
 echo "*****************************"
-ls -d /usr/lib64/* | grep cfitsio
+rpm -q cfitsio
 echo ""
 
 
 echo "*****************************"
 echo " LIBWEBSOCKETS"
-echo " ls -d /usr/lib64/* | grep websockets"
+echo " rpm -q libwebsockets"
 echo "*****************************"
-ls -d /usr/lib64/* | grep websockets
+rpm -q libwebsockets
 echo ""
 
 echo "*****************************"
