@@ -266,7 +266,7 @@ echo " SCALA - SCOVERAGE"
 echo " cat /usr/local/sbt-scoverage/version.sbt"
 echo "*****************************"
 cat /usr/local/sbt-scoverage/version.sbt
-echo "
+echo ""
 
 echo "*****************************"
 echo " SCALAFMT"
