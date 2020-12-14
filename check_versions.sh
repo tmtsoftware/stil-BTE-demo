@@ -4,7 +4,7 @@
 ### in confluence (uses Confluence entry sort order)
 
 echo "*****************************"
-echo " Check Versions 2020r2"
+echo " Check Versions 2020r3"
 echo "*****************************"
 echo ""
 
@@ -82,6 +82,13 @@ rpm -q libcmocka
 echo ""
 
 echo "*****************************"
+echo " COURSIER"
+echo " cs --version"
+echo "*****************************"
+cs --version
+echo ""
+
+echo "*****************************"
 echo " CPPCHECK"
 echo " cppcheck --version"
 echo "*****************************"
@@ -89,10 +96,24 @@ cppcheck --version
 echo ""
 
 echo "*****************************"
+echo " DOCKER"
+echo " docker --version"
+echo "*****************************"
+docker --version
+echo ""
+
+echo "*****************************"
 echo " DOXYGEN"
 echo " doxygen -version"
 echo "*****************************"
 doxygen -version
+echo ""
+
+echo "*****************************"
+echo " G8"
+echo " gs --version"
+echo "*****************************"
+g8 --version
 echo ""
 
 echo "*****************************"
@@ -135,6 +156,8 @@ echo " JENKINS"
 echo " java -jar /usr/lib/jenkins/jenkins.war --version"
 echo "*****************************"
 java -jar /usr/lib/jenkins/jenkins.war --version                                                       
+echo ""
+
 echo "*****************************"
 echo " JSDOC"
 echo " jsdoc --version"
@@ -147,6 +170,29 @@ echo " JSHINT"
 echo " jshint -version"
 echo "*****************************"
 jshint --version
+echo ""
+
+echo "*****************************"
+echo " JUNIT-MERGE"
+echo " junit-merge --version"
+echo "*****************************"
+junit-merge --version
+echo ""
+
+echo "*****************************"
+echo " JUNIT-VIEWER"
+#echo " junit-viewer --version"
+echo " ls -1 /usr/lib/node_modules/junit-viewer"
+echo "*****************************"
+#junit-viewer --version
+ls -1 /usr/lib/node_modules/junit-viewer
+echo ""
+
+echo "*****************************"
+echo " KOTLIN"
+echo " source ~/.sdkman/bin/sdkman-init.sh; kotlinc -version"
+echo "*****************************"
+source ~/.sdkman/bin/sdkman-init.sh; kotlinc -version
 echo ""
 
 echo "*****************************"
@@ -168,6 +214,13 @@ echo " MAVEN"
 echo " /usr/share/maven/bin/mvn --version"
 echo "*****************************"
 /usr/share/maven/bin/mvn --version
+echo ""
+
+echo "*****************************"
+echo " NODEJS"
+echo " /usr/local/node/bin/node --version"
+echo "*****************************"
+/usr/local/node/bin/node --version
 echo ""
 
 echo "*****************************"
@@ -250,6 +303,15 @@ echo " Python3"
 echo " python3 --version"
 echo "*****************************"
 python3 --version
+echo ""
+
+echo "*****************************"
+echo " REDIS"
+echo " redis-server -v"
+echo " redis-cli -v"
+echo "*****************************"
+redis-server -v
+redis-cli -v
 echo ""
 
 echo "*****************************"
