@@ -4,6 +4,11 @@
 ### in confluence (uses Confluence entry sort order)
 
 echo "*****************************"
+echo " Check Versions 2020r2"
+echo "*****************************"
+echo ""
+
+echo "*****************************"
 echo " GCC"
 echo " gcc --version | grep gcc"
 echo "*****************************"
