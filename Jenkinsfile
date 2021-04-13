@@ -3,8 +3,9 @@ pipeline {
   stages {
     stage('Stage 1') {
       steps {
-        echo 'Hello World!'
-        sh 'wc -l check_versions.sh'
+        echo $BUILD_DISPLAY_NAME
+        echo $JENKINS_URL
+        echo $GIT_URL
         sh './check_versions.sh'
       }
     }
