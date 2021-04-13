@@ -9,7 +9,9 @@ pipeline {
   }
   stages {
     stage('Stage 0') {
-      echo "${params.Greeting}, World!"
+      steps {
+        echo "${params.Greeting}, World!"
+      }
     }
     stage('Stage 1') {
       steps {
