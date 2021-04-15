@@ -224,6 +224,14 @@ echo "*****************************"
 echo ""
 
 echo "*****************************"
+echo " NPM"
+echo " /usr/local/node/bin/npm --version"
+echo "*****************************"
+/usr/local/node/bin/node --version
+echo ""
+
+
+echo "*****************************"
 echo " NTP"
 echo " Should see TAI offset 37"
 echo " ntptime | grep "TAI""
