@@ -192,6 +192,15 @@ ls -d /usr/local/pmd/pmd-bin*
 echo ""
 
 echo "*****************************"
+echo " Postgresql"
+echo " rpm -q postgresql13"
+echo "*****************************"
+rpm -q postgresql13
+echo ""
+
+echo "*****************************"
+
+echo "*****************************"
 echo " Python astropy"
 echo " pip list --format=legacy  | grep astropy"
 echo "*****************************"
