@@ -1,0 +1,26 @@
+pipeline {
+  agent any
+  parameters {
+    string(name: 'Greeting', defaultValue: 'Hello', description: 'greeting to World!')
+  }
+  environment {
+    ENV1 = 'imel:ejoliet:laity:sdschurr:mharbut'
+    ENV2 = 'aoesunth234908g'
+  }
+  stages {
+    stage('Stage 0') {
+      steps {
+        echo "${params.Greeting}, World!"
+      }
+    }
+    stage('Stage 1') {
+      steps {
+ //       echo 'BUILD_DISPLAY_NAME, ENV1, and ENV2 follow'
+        sh 'echo $BUILD_DISPLAY_NAME'
+        sh 'echo $ENV1'
+        sh 'echo $ENV2'
+//        sh './check_versions.sh'
+      }
+    }
+  }
+}
