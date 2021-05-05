@@ -160,32 +160,32 @@ echo ""
 
 echo "*****************************"
 echo " JSDOC"
-echo " jsdoc --version"
+echo " /usr/local/node/bin/jsdoc --version"
 echo "*****************************"
-jsdoc --version
+/usr/local/node/bin/jsdoc --version
 echo ""
 
 echo "*****************************"
 echo " JSHINT"
-echo " jshint -version"
+echo " /usr/local/node/bin/jshint -version"
 echo "*****************************"
-jshint --version
+/usr/local/node/bin/jshint --version
 echo ""
 
 echo "*****************************"
 echo " JUNIT-MERGE"
 echo " junit-merge --version"
 echo "*****************************"
-junit-merge --version
+/usr/local/node/bin/junit-merge --version
 echo ""
 
 echo "*****************************"
 echo " JUNIT-VIEWER"
 #echo " junit-viewer --version"
-echo " ls -1 /usr/lib/node_modules/junit-viewer"
+echo " grep -i version /usr/local/node/lib/node_modules/junit-viewer/package.json"
 echo "*****************************"
 #junit-viewer --version
-ls -1 /usr/lib/node_modules/junit-viewer
+grep -i version /usr/local/node/lib/node_modules/junit-viewer/package.json
 echo ""
 
 echo "*****************************"
