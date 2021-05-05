@@ -4,7 +4,7 @@
 ### in confluence (uses Confluence entry sort order)
 
 echo "*****************************"
-echo " Check Versions 2020r3"
+echo " Check Versions 2021r1"
 echo "*****************************"
 echo ""
 
@@ -227,7 +227,7 @@ echo "*****************************"
 echo " NPM"
 echo " /usr/local/node/bin/npm --version"
 echo "*****************************"
-/usr/local/node/bin/node --version
+/usr/local/node/bin/npm --version
 echo ""
 
 
