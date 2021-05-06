@@ -15,6 +15,7 @@ echo "*****************************"
 gcc --version | grep gcc
 echo ""
 
+
 echo "*****************************"
 echo " spdlog"
 echo "rpm -q spdlog-devel"
