@@ -12,6 +12,7 @@ pipeline {
       steps {
 //        echo "${params.Greeting}, World!"
         echo "Hello, World!"
+        echo "edit A to donalgrant-patch-1"
       }
     }
     stage('Stage 1') {
