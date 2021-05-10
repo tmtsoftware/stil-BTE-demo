@@ -69,6 +69,13 @@ rpm -q cfitsio
 echo ""
 
 echo "*****************************"
+echo " CHROME"
+echo " google-chrome --version"
+echo "*****************************"
+google-chrome --version
+echo ""
+
+echo "*****************************"
 echo " CLANG"
 echo " rpm -q clang"
 echo "*****************************"
