@@ -2,7 +2,9 @@
 
 ### sorted (loosely) in alphabetical order to match BTE configuration worksheet
 ### in confluence (uses Confluence entry sort order)
-
+echo "*****************************"
+echo " Testing commit added with jenkins webhook..."
+echo "*****************************"
 echo "*****************************"
 echo " Check Versions 2021r1"
 echo "*****************************"
