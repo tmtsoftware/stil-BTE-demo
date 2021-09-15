@@ -233,7 +233,6 @@ echo ""
 
 echo "*****************************"
 echo " NPM"
-<<<<<<< HEAD
 echo " /bin/npm version"
 echo "*****************************"
 /bin/npm version
