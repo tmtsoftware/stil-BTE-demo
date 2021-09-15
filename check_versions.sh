@@ -238,14 +238,6 @@ echo "*****************************"
 /bin/npm version
 echo ""
 
-=======
-echo " /usr/local/node/bin/npm --version"
-echo "*****************************"
-/usr/local/node/bin/npm --version
-echo ""
-
-
->>>>>>> 0dee73ecc30d1c345437230c9f84f35867ce898e
 echo "*****************************"
 echo " NTP"
 echo " Should see TAI offset 37"
