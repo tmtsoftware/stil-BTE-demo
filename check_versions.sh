@@ -224,6 +224,13 @@ echo "*****************************"
 echo ""
 
 echo "*****************************"
+echo " NPM"
+echo " /bin/npm version"
+echo "*****************************"
+/bin/npm version
+echo ""
+
+echo "*****************************"
 echo " NTP"
 echo " Should see TAI offset 37"
 echo " ntptime | grep "TAI""
