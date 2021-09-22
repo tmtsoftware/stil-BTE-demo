@@ -361,9 +361,9 @@ echo ""
 
 echo "*****************************"
 echo " SCALAFMT"
-echo " /usr/local/scalafmt/scalafmt --version"
+echo " /usr/local/scalafmt/scalafmt/scalafmt --version"
 echo "*****************************"
-/usr/local/scalafmt/scalafmt --version
+/usr/local/scalafmt/scalafmt/scalafmt --version
 echo ""
 
 echo "*****************************"
