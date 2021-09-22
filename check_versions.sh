@@ -233,11 +233,10 @@ echo ""
 
 echo "*****************************"
 echo " NPM"
-echo " /usr/local/node/bin/npm --version"
+echo " /bin/npm version"
 echo "*****************************"
-/usr/local/node/bin/npm --version
+/bin/npm version
 echo ""
-
 
 echo "*****************************"
 echo " NTP"
