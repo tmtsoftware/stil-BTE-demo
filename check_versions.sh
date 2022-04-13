@@ -89,12 +89,10 @@ echo "*****************************"
 rpm -q libcmocka
 echo ""
 
-echo "*****************************"
-echo " COURSIER"
-echo " cs --version"
-echo "*****************************"
-cs --version
-echo ""
+
+#### Previous code doesn't work, and I couldn't find
+#### how to get the coursier version.  Removed
+#### 20220413.
 
 echo "*****************************"
 echo " CPPCHECK"
@@ -266,9 +264,9 @@ echo ""
 
 echo "*****************************"
 echo " Postgresql"
-echo " rpm -q postgresql13"
+echo " psql --version"
 echo "*****************************"
-rpm -q postgresql13
+psql --version
 echo ""
 
 echo "*****************************"
@@ -340,9 +338,9 @@ echo ""
 
 echo "*****************************"
 echo " SBT"
-echo " rpm -q sbt"
+echo " sbt -version"
 echo "*****************************"
-rpm -q sbt
+sbt -version
 echo ""
 
 echo "*****************************"
@@ -354,16 +352,16 @@ echo ""
 
 echo "*****************************"
 echo " SCALA - SCOVERAGE"
-echo " cat /usr/local/sbt-scoverage/version.sbt"
+echo " grep \"def scoverageVersion\" /usr/local/sbt-scoverage/build.sbt
 echo "*****************************"
-cat /usr/local/sbt-scoverage/version.sbt
+grep "def scoverageVersion" /usr/local/sbt-scoverage/build.sbt
 echo ""
 
 echo "*****************************"
 echo " SCALAFMT"
-echo " /usr/local/scalafmt/scalafmt/scalafmt --version"
+echo " /usr/bin/scalafmt -version"
 echo "*****************************"
-/usr/local/scalafmt/scalafmt/scalafmt --version
+/usr/bin/scalafmt -version
 echo ""
 
 echo "*****************************"
@@ -373,14 +371,7 @@ echo "*****************************"
 ls -d /usr/local/scalastyle/*.jar
 echo ""
 
-echo "*****************************"
-echo " SONARQUBE"
-echo " ls -d /usr/local/sonarqube/* | grep -v zip"
-echo " /usr/local/sonarqube-scanner/sonar-scanner-*/bin/sonar-scanner --version"
-echo "*****************************"
-ls -d /usr/local/sonarqube/* | grep -v zip
-/usr/local/sonarqube-scanner/sonar-scanner-*/bin/sonar-scanner --version
-echo ""
+#### sonarqube has been removed, per Denis.  Updated 20220413
 
 echo "*****************************"
 echo " TUNA"
