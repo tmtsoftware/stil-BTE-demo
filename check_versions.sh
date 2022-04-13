@@ -352,7 +352,7 @@ echo ""
 
 echo "*****************************"
 echo " SCALA - SCOVERAGE"
-echo " grep \"def scoverageVersion\" /usr/local/sbt-scoverage/build.sbt
+echo " grep def scoverageVersion /usr/local/sbt-scoverage/build.sbt"
 echo "*****************************"
 grep "def scoverageVersion" /usr/local/sbt-scoverage/build.sbt
 echo ""
