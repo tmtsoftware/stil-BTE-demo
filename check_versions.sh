@@ -116,6 +116,14 @@ doxygen -version
 echo ""
 
 echo "*****************************"
+echo " ESLINT"
+echo " npm show eslint version"
+echo "*****************************"
+npm show eslint version
+echo ""
+
+
+echo "*****************************"
 echo " G8"
 echo " gs --version"
 echo "*****************************"
@@ -162,6 +170,13 @@ echo " JENKINS"
 echo " java -jar /usr/lib/jenkins/jenkins.war --version"
 echo "*****************************"
 java -jar /usr/lib/jenkins/jenkins.war --version                                                       
+echo ""
+
+echo "*****************************"
+echo " jest"
+echo " npm show jest version"
+echo "*****************************"
+npm show jest version
 echo ""
 
 echo "*****************************"
@@ -371,8 +386,23 @@ echo "*****************************"
 ls -d /usr/local/scalastyle/*.jar
 echo ""
 
+echo "*****************************"
+echo " SNOWPACK"
+echo " npm show snowpack version"
+echo "*****************************"
+npm show snowpack version
+echo ""
+
 #### sonarqube has been removed, per Denis.  Updated 20220413
 
+echo "*****************************"
+echo " STYLELINT"
+echo " npm show stylelint version"
+echo "*****************************"
+npm show stylelint version
+echo ""
+
+#### sonarqube has been removed, per Denis.  Updated 20220413
 echo "*****************************"
 echo " TUNA"
 echo " tuna --version"
@@ -388,6 +418,14 @@ echo "*****************************"
 tuned --version
 echo ""
 
+echo "*****************************"
+echo " TYPEDOC"
+echo " npm show typedoc version"
+echo "*****************************"
+npm show typedoc version
+echo ""
+
+#### sonarqube has been removed, per Denis.  Updated 20220413
 
 echo "*****************************"
 echo " ZLIB, ZLIB-DEVEL"
