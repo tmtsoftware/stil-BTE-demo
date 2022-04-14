@@ -167,9 +167,9 @@ echo ""
 
 echo "*****************************"
 echo " JENKINS"
-echo " java -jar /usr/lib/jenkins/jenkins.war --version"
+echo " rpm -qa jenkins"
 echo "*****************************"
-java -jar /usr/lib/jenkins/jenkins.war --version                                                       
+rpm -qa jenkins
 echo ""
 
 echo "*****************************"
@@ -283,8 +283,6 @@ echo " psql --version"
 echo "*****************************"
 psql --version
 echo ""
-
-echo "*****************************"
 
 echo "*****************************"
 echo " Python astropy"
