@@ -32,9 +32,9 @@ echo ""
 
 echo "*****************************"
 echo " CMAKE"
-echo " cmake -version"
+echo " /usr/local/bin/cmake -version"
 echo "*****************************"
-cmake -version
+/usr/local/bin/cmake -version
 echo ""
 
 echo "*****************************"
@@ -57,6 +57,7 @@ echo " cbor"
 echo " ls -l /usr/local/lib64/libcbor*"
 echo "*****************************"
 ls -l /usr/local/lib64/libcbor*
+echo ""
 
 echo "============================================================"
 echo " OS - Centos 7"
@@ -362,11 +363,11 @@ echo ""
 
 echo "*****************************"
 echo " REDIS"
-echo " redis-server -v"
-echo " redis-cli -v"
+echo " /usr/local/bin/redis-server -v"
+echo " /usr/local/bin/redis-cli -v"
 echo "*****************************"
-redis-server -v
-redis-cli -v
+/usr/local/bin/redis-server -v
+/usr/local/bin/redis-cli -v
 echo ""
 
 echo "*****************************"
@@ -385,7 +386,7 @@ echo ""
 
 echo "*****************************"
 echo " SCALA - SCOVERAGE"
-echo " grep def scoverageVersion /usr/local/sbt-scoverage/build.sbt"
+echo " grep scoverageVersion /usr/local/sbt-scoverage/build.sbt"
 echo "*****************************"
 grep "def scoverageVersion" /usr/local/sbt-scoverage/build.sbt
 echo ""
@@ -443,6 +444,13 @@ echo "*****************************"
 npm show typedoc version
 echo ""
 
+echo "*****************************"
+echo " uuid lib"
+echo " rpm -qa | grep uuid"
+echo "*****************************"
+rpm -qa | grep uuid
+echo ""
+
 #### sonarqube has been removed, per Denis.  Updated 20220413
 
 echo "*****************************"
@@ -458,9 +466,9 @@ echo ""
 
 echo "*****************************"
 echo " zlog"
-echo " ls -d /usr/local/zlog/lib/* | grep zlog"
+echo " ls -d /usr/local/lib/libzlog* "
 echo "*****************************"
-ls -d /usr/local/zlog/lib/* | grep zlog
+ls -d /usr/local/lib/libzlog* 
 echo ""
 
 echo "============================================================"
