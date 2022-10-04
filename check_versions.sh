@@ -51,6 +51,13 @@ echo "*****************************"
 make -version | grep Make
 echo ""
 
+
+echo "*****************************"
+echo " cbor"
+echo " ls -l /usr/local/lib64/libcbor*"
+echo "*****************************"
+ls -l /usr/local/lib64/libcbor*
+
 echo "============================================================"
 echo " OS - Centos 7"
 cat /etc/redhat-release
@@ -271,6 +278,12 @@ rpm -q numactl-devel
 echo ""
 
 echo "*****************************"
+echo " openssl"
+echo " /usr/local/bin/openssl version"
+echo "*****************************"
+/usr/local/bin/openssl version
+
+echo "*****************************"
 echo " PMD"
 echo " ls -d /usr/local/pmd/pmd-bin*"
 echo "*****************************"
@@ -338,6 +351,13 @@ echo " Python3"
 echo " python3 --version"
 echo "*****************************"
 python3 --version
+echo ""
+
+echo "*****************************"
+echo " Python3.10 or later"
+echo " /usr/local/bin/python3.10 --version"
+echo "*****************************"
+/usr/local/bin/python3.10 --version
 echo ""
 
 echo "*****************************"
@@ -452,7 +472,3 @@ echo " ENV"
 echo " env"
 echo "*****************************"
 env
-echo ""
-
-
-
