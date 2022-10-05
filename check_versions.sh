@@ -102,6 +102,16 @@ echo ""
 #### how to get the coursier version.  Removed
 #### 20220413.
 
+#### 
+
+echo "*****************************"
+echo " cousrier osw-apps channel"
+echo "su - jenkins -s '/bin/bash' -c 'cs channel --list'"
+echo "*****************************"
+su - jenkins -s '/bin/bash' -c 'cs channel --list'
+echo ""
+
+
 echo "*****************************"
 echo " CPPCHECK"
 echo " cppcheck --version"
