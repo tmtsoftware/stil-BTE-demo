@@ -371,6 +371,16 @@ echo "*****************************"
 echo ""
 
 echo "*****************************"
+echo " hiredis libs"
+echo " rpm -qa|grep hiredis" 
+echo "*****************************"
+rpm -qa | grep hiredis
+echo ""
+
+echo "*****************************"
+
+
+echo "*****************************"
 echo " SBT"
 echo " sbt -version"
 echo "*****************************"
