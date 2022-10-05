@@ -106,9 +106,9 @@ echo ""
 
 echo "*****************************"
 echo " cousrier osw-apps channel"
-echo "su - jenkins -s '/bin/bash' -c 'cs channel --list'"
+echo "/bin/cs channel --list"
 echo "*****************************"
-su - jenkins -s '/bin/bash' -c 'cs channel --list'
+/bin/cs channel --list
 echo ""
 
 
