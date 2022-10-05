@@ -98,11 +98,12 @@ rpm -q libcmocka
 echo ""
 
 
-#### Previous code doesn't work, and I couldn't find
-#### how to get the coursier version.  Removed
-#### 20220413.
-
-#### 
+echo "*****************************"
+echo " coursier"
+echo "/bin/cs version"
+echo "*****************************"
+/bin/cs version
+echo ""
 
 echo "*****************************"
 echo " cousrier osw-apps channel"
