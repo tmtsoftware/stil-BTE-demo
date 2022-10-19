@@ -4,7 +4,7 @@
 ### in confluence (uses Confluence entry sort order)
 
 echo "*****************************"
-echo " Check Versions 2021r1"
+echo " Check Versions 2022r2"
 echo "*****************************"
 echo ""
 
@@ -111,6 +111,14 @@ echo "/bin/cs channel --list"
 echo "*****************************"
 /bin/cs channel --list
 echo ""
+
+echo "*****************************"
+echo " coursier version of java"
+echo "/bin/cs java --version"
+echo "*****************************"
+/bin/cs java --version
+echo ""
+
 
 
 echo "*****************************"
