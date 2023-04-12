@@ -339,6 +339,15 @@ pip list --format=legacy | grep pep8
 echo ""
 
 echo "*****************************"
+echo " Python pycodestyle"
+echo " pip list --format=legacy | grep pycodestyle"
+echo "*****************************"
+pip list --format=legacy | grep pycodestyle
+echo ""
+
+echo "*****************************"
+
+echo "*****************************"
 echo " Python pytest"
 echo " pip list --format=legacy | grep pytest"
 echo "*****************************"
